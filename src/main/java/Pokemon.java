@@ -26,6 +26,14 @@ public class Pokemon {
      */
     int hitPoints;
 
+    hitPoints = 50;
+    for (int hitPoints = 50; hitPoints > 1; hitPoints--) {
+        if (hitPoints < 1) {
+            return null;
+        }
+        return hitPoints;
+    }
+
     /**
      * This Pokemon's attack level.
      * <p>
@@ -33,17 +41,26 @@ public class Pokemon {
      */
     int attackLevel;
 
+    for (attackLevel = 0; attackLevel < 50; attackLevel++) {
+        attackLevel + defenseLevel <= 50;
+        return attackLevel;
+    }
+
     /**
      * This Pokemon's defense level.
      * <p>
      * Users have up to 50 points to split between attack level and defense level.
      */
     int defenseLevel;
+    for (defenseLevel = 0; defenseLevel < 50; defenseLevel++) {
+        attackLevel + defenseLevel <= 50;
+        return defenseLevel;
+    }
 
     /**
      * This Pokemon's name.
      */
-    String name;
+    String name = "Pikachu!";
 
     /**
      * A 6 sided dice used to calculate attack damage.
